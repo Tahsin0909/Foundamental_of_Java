@@ -9,7 +9,7 @@ public class IndexString {
 
         String txt3 = "Greetings";
         String txt4 = "Great things";
-
+        System.out.println(txt1 == txt3);
         System.out.println(txt1.equals(txt2));
         System.out.println(txt3.equals(txt4));
 
@@ -28,6 +28,6 @@ public class IndexString {
         // concatination
         int age = 25;
         System.out.println("My name is " + name + " and I am " + age + " years old.");
-
+        System.out.println(txt1.concat(name));
     }
 }
