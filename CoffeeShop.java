@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class CoffeeShop {
     public static void main(String[] args) {
-        // Create Scanner object - like opening your ears to listen
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Welcome! What's your name? ");
@@ -21,7 +20,6 @@ public class CoffeeShop {
         System.out.println("Quantity: " + quantity + " coffees");
         System.out.println("Total: $" + totalPrice);
 
-        // IMPORTANT: Always close scanner when done
         scanner.close();
     }
 } 
